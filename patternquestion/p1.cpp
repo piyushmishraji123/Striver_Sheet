@@ -1,3 +1,4 @@
+//RIGHT SIDE TRIANGLE
 #include <iostream>
 
 int main() {
