@@ -8,7 +8,7 @@ using namespace std;
 // {
 //     int count =0 ;
 
-//     for (int i = i-2; i <= n; i++)
+//     for (int i = 2; i <= n; i++)
 //     {
 //         if (n % i == 0)
 //         {
@@ -46,7 +46,7 @@ int main()
     int n;
     cout << "enter the number to check";
     cin >> n;
-    isPrime(n);
+    cout<<isPrime(n);
     //  prime(n);
 
 }

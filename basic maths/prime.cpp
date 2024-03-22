@@ -1,43 +1,28 @@
-// #include <iostream>
-// using namespace std;
-// int main()
-// {   int age;
-//     cin>>age;
-
-//     if(age>18)
-//     {
-//         cout<<"you are adult";
-//     }
-//     else
-//     {
-//         cout<<"you are teenager";
-//     }
-// }
-//  program to implement priime no;
-/*
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 int main()
-{
-    int i,j,count=0;
-    cout <<"enter a number";
-    cin>>i;
-    for(j=1;j<=i;j++)
+{   
+    int num;
+    cout<<"Enter the number to check:";
+    cin >> num;
+    if (num == 0 || num == 1)
     {
-        if(i%j==0)
+        cout << "Not a prime num";
+    }
+    int count = 0;
+    for (int i = 2; i < num ; i++)
+    {
+        if(num%i ==0)
         {
             count++;
         }
-        
+     
     }
-    if(count==2)
-    {
-        cout<<"no is prime";
-    }else
-    {
-        cout<<"no is composite";
-    }
-
-
-}*/
-// switch case 
+       if(count==0)
+        {
+            cout<<"num is prime";
+        }
+        else{
+            cout<<"num is not prime";
+        }
+}

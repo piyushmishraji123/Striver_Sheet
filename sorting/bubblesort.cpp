@@ -23,6 +23,7 @@ using namespace std;
 // }
 //striver
 void bubble_sort(int arr[], int n) {
+     //5 4 3 2 1
     for(int i=n-1;i>=0 ;i-- )
     {
         for (int j = 0; j <=i-1; j++)
@@ -33,6 +34,7 @@ void bubble_sort(int arr[], int n) {
       arr[j+1]=arr[j];
       arr[j]=temp;
     // swap(arr[j],arr[j+1]);
+
                
             }
             
